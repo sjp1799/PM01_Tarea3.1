@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_crear"
+            android:icon="@drawable/outline_add_circle_outline_24"
+            android:title="Registrar Empleado" />
+        <item
+            android:id="@+id/nav_lista"
+            android:icon="@drawable/outline_description_24"
+            android:title="Lista de Empleados" />
+        <item
+            android:id="@+id/nav_modificar"
+            android:icon="?android:attr/actionModeFindDrawable"
+            android:title="Buscar Empleado" />
+    </group>
+</menu>
